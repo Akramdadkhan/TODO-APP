@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 550px;
+}
+
+.heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(238, 58, 136, 1) 11.2%,
+    rgba(128, 162, 245, 1) 91.1%
+  );
+  background-size: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.getinput {
+  margin: 30px auto;
+}
+
+.getinput Button {
+  margin-left: 20px;
+}
+
+.todolist {
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(70, 50, 252, 0.4);
+}
+
+.todolist h3 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgba(70, 50, 252, 0.7);
+  width: 80px;
+  padding: 5px;
+}
+
+.delete-all {
+  margin-top: 20px;
+  max-width: 150px;
+}
+
+@media (max-width: 460px) {
+  .todo-input {
+    width: 150px;
+  }
+  .getinput Button {
+    width: 90px;
+    font-size: 0.7rem;
+    padding: 10px 0;
+  }
+}
